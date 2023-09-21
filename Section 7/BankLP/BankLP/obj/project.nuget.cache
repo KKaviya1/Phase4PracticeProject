@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2VWdJusf8I0f/JYPuVMSXHRhNE3gMPc/QHDp7o+LA5krm+zma1LJwTy15R+2xGqT+Pht1fiHei2owCm98K7vRg==",
+  "success": true,
+  "projectFilePath": "F:\\PHASE-4\\PraticeProject\\Section 7\\BankLP\\BankLP\\BankLP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kaviya\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
+  ],
+  "logs": []
+}
