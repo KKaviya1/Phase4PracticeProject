@@ -1,0 +1,63 @@
+Student:
+-------- 
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SchoolData
+{
+    public class Student
+    {
+        public int Id { get; set; }
+
+        public string Name { get; set; }
+
+        public string Class { get; set; }
+
+        public string Address { get; set; }
+
+     
+    }
+}
+
+
+Subject:
+--------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SchoolData
+{
+    public class Subject
+    {
+        public int Id { get; set; }
+
+        public string Name { get; set; }
+
+    
+    }
+}
+
+
+Teacher:
+--------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SchoolData
+{
+    public class Teacher
+    {
+            public int TeacherId { get; set; }
+            public string Name { get; set; }
+        
+    }
+}

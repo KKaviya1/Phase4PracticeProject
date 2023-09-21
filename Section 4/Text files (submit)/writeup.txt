@@ -1,0 +1,27 @@
+Explanation:
+------------
+
+Setting up a .NET web application to be deployed via Jenkins:
+1.Created a .NET Web Application and enter some sample codes.
+2.Initialized a Git repository for my .NET web application project.
+   - Committed my code to the repository.
+   - Pushed my code to a GitHub repository.
+3.Jenkins:
+   - In the Jenkins web interface, created a new Jenkins job by selecting "New Item."
+   - Choosed "Freestyle project" 
+   - Configure the job:
+      - Specified the source code management system (Git).
+      - Provided the URL of my GitHub repository.
+4.In the "Build" section, specified the build steps:
+Using this command, 
+        cd $WROKSPACE/Pizzaproject
+        dotnet restore
+        dotnet build
+        - Restored dependencies with "dotnet restore."
+        - Built the application using "dotnet build"
+5.Save and Build
+   - Saved my Jenkins job configuration.
+6.Deployed Successfully.
+
+
+GitHub Link:https://github.com/KKaviya1/Phase4PracticeProject/tree/master/Section%204

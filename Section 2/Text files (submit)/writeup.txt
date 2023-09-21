@@ -1,0 +1,33 @@
+Code Explanation:
+------------------
+
+Create a Class Library:
+Click on File->New->Project.
+Select (Class Library) and with the name SchoolData.
+Add Teacher.cs, Student.cs, and Subject.cs to the project.
+
+Create a Unit Testing Project:
+Select Add->New Project.
+Choose NUnit Test Project and with the name SchoolDataTest.
+
+Write NUnit Test Cases:
+Created test classes (TeacherTest.cs, StudentTest.cs, and SubjectTest.cs) in the Test project.
+Writed test methods for properties and functionalities.
+
+Manage nuget packages:
+Install Moq.
+
+Add References to Test Project:
+Right-click on "References" in the Solution Explorer of your Test project.
+Click on Add Reference.
+Select your Class Library project under the "Projects" tab.
+
+Build Solution.
+
+Testing All:
+In menu bar click on Test,
+Then click on Test explorer to see the tests and tests results.
+Its builds the solution once more to check.
+
+
+GitHub Link:https://github.com/KKaviya1/Phase4PracticeProject/tree/master/Section%202

@@ -1,0 +1,6 @@
+F:\PHASE-4\PraticeProject\Section 2\SchoolData\SchoolData\bin\Debug\SchoolData.dll
+F:\PHASE-4\PraticeProject\Section 2\SchoolData\SchoolData\bin\Debug\SchoolData.pdb
+F:\PHASE-4\PraticeProject\Section 2\SchoolData\SchoolData\obj\Debug\SchoolData.csproj.AssemblyReference.cache
+F:\PHASE-4\PraticeProject\Section 2\SchoolData\SchoolData\obj\Debug\SchoolData.csproj.CoreCompileInputs.cache
+F:\PHASE-4\PraticeProject\Section 2\SchoolData\SchoolData\obj\Debug\SchoolData.dll
+F:\PHASE-4\PraticeProject\Section 2\SchoolData\SchoolData\obj\Debug\SchoolData.pdb

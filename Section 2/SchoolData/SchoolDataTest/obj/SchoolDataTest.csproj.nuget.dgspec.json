@@ -1,0 +1,108 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\PHASE-4\\PraticeProject\\Section 2\\SchoolData\\SchoolDataTest\\SchoolDataTest.csproj": {}
+  },
+  "projects": {
+    "F:\\PHASE-4\\PraticeProject\\Section 2\\SchoolData\\SchoolDataTest\\SchoolDataTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\PHASE-4\\PraticeProject\\Section 2\\SchoolData\\SchoolDataTest\\SchoolDataTest.csproj",
+        "projectName": "SchoolDataTest",
+        "projectPath": "F:\\PHASE-4\\PraticeProject\\Section 2\\SchoolData\\SchoolDataTest\\SchoolDataTest.csproj",
+        "packagesPath": "C:\\Users\\kaviya\\.nuget\\packages\\",
+        "outputPath": "F:\\PHASE-4\\PraticeProject\\Section 2\\SchoolData\\SchoolDataTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kaviya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\PHASE-4\\PraticeProject\\Section 2\\SchoolData\\SchoolData\\SchoolData.csproj": {
+                "projectPath": "F:\\PHASE-4\\PraticeProject\\Section 2\\SchoolData\\SchoolData\\SchoolData.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.69, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\PHASE-4\\PraticeProject\\Section 2\\SchoolData\\SchoolData\\SchoolData.csproj": {
+      "restore": {
+        "projectUniqueName": "F:\\PHASE-4\\PraticeProject\\Section 2\\SchoolData\\SchoolData\\SchoolData.csproj",
+        "projectName": "SchoolData",
+        "projectPath": "F:\\PHASE-4\\PraticeProject\\Section 2\\SchoolData\\SchoolData\\SchoolData.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
