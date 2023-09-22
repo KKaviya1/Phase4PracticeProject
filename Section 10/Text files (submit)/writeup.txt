@@ -1,0 +1,50 @@
+Explanation:
+------------
+
+1.Create a Web App MVC Project
+	1.Visual Studio 2022.
+	2.Create a new project by selecting "File" > "New" > "Project..." 
+	3.ASP.Net Core WepApp(MVC).
+
+2.Model Classes
+	1.In the newly created MVC project, add model classes for `Student`, `Teacher`, and `Subject`. 
+
+3.Empty Controllers
+	1.Create empty controllers for each model class. 
+	2.You can right-click on the "Controllers" folder, select "Add," and then choose "Controller." 
+	3.Repeat this process for each model.
+
+4.Controller Code
+	1.Inside each controller, add code to create and view lists of the respective model class. 
+	2.Implement methods for listing, creating, and viewing details of records.
+
+5.Views
+	1. Create views for creating and listing data. 
+
+6.Azure Web App
+	1. In the Azure Portal, create a Web App by selecting "Create a resource" and searching for "Web App."
+	2. Choose a resource group, provide the web app name, select the runtime stack, and choose the appropriate pricing plan for your subscription.
+	3. Click "Review and create," and then click "Create."
+	4. After the web app is created, click "Go to resource" and download the publish profile. Choose a path to save the file.
+
+7.Azure Virtual Machine (VM)
+	1. Go to the Azure Portal (https://portal.azure.com/).
+	2. Click "Create a resource" and search for "Virtual Machine."
+	3. Fill in the required details such as resource group, VM size, and hard drive type.
+	4. Provide administrator details like the administrator’s name and password.
+	5. Click "Review + create" and, after validation succeeds, click "Create."
+	6. After the deployment succeeds, click "Go to resource," and then click "Connect." 
+	7.Download the RDP file and choose a file path for the download.
+
+8.Publishing
+	1. Back in Visual Studio, right-click on your project in the Solution Explorer and select "Publish."
+	2. Click "Import profile," browse for the publish profile file you downloaded, and click "Finish."
+	3. Click "Publish." This will publish the project to both the Azure VM and the Azure Web App.
+
+9.Accessing the Web App
+	1. Locate the downloaded RDP file for the Azure VM, open it, and provide the admin name and password.
+	2. Click "Yes" on the next dialog box, and it will load the Windows 10 VM.
+	3. In the VM's browser, copy the HTTP link from the publish page and paste it in the VM's browser. This will open the web app you created.
+
+
+GitHub Link:

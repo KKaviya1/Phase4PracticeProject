@@ -1,0 +1,173 @@
+--MODELS--
+
+Student:
+--------
+
+namespace RainbowSchool.Models
+{
+    public class Student
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Class { get; set; }
+        public int Age { get; set; }
+        public string Address { get; set; }
+    }
+}
+
+
+Subject:
+--------
+namespace RainbowSchool.Models
+{
+        public class Subject
+        {
+            public int Id { get; set; }
+            public string Name { get; set; }
+        }
+    
+}
+
+
+Teacher:
+--------
+namespace RainbowSchool.Models
+{
+    public class Teacher
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string TeachingSubject { get; set; }
+    }
+}
+
+
+--CONTROLLERS--
+
+StudentController:
+------------------
+using Microsoft.AspNetCore.Mvc;
+using RainbowSchool.Models;
+
+namespace RainbowSchool.Controllers
+{
+    public class StudentController : Controller
+    {
+        List<Student> student = new List<Student>()
+        {
+            new Student { Id = 1, Name = "Viya", Class = "9B", Age = 17, Address = "Mission Street"},
+            new Student { Id = 2, Name = "Prakash", Class = "7A", Age = 15, Address = "Pattanur"},
+            new Student { Id = 3, Name = "Praveen", Class = "8C", Age = 16, Address = "432 some where "},
+        };
+        public IActionResult Index()
+        {
+            return View(student);
+        }
+
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View(new Student());
+        }
+
+        [HttpPost]
+        public IActionResult Create(Student model)
+        {
+            if (ModelState.IsValid)
+            {
+                student.Add(model);
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return View(model);
+            }
+        }
+    }
+}
+
+
+SubjectController:
+-------------------
+using Microsoft.AspNetCore.Mvc;
+using RainbowSchool.Models;
+
+namespace RainbowSchool.Controllers
+{ 
+    public class SubjectController : Controller
+    {
+        List<Subject> subject = new List<Subject>()
+        {
+            new Subject { Id = 1, Name = "English"},
+            new Subject {Id = 2, Name = "Tamil"},
+            new Subject {Id = 3, Name = "Maths"},
+        };
+        public IActionResult Index()
+        {
+            return View(subject);
+        }
+
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View(new Subject());
+        }
+
+        [HttpPost]
+        public IActionResult Create(Subject model)
+        {
+            if (ModelState.IsValid)
+            {
+                subject.Add(model);
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return View(model);
+            }
+        }
+    }
+}
+
+
+TeacherController:
+------------------
+using Microsoft.AspNetCore.Mvc;
+using RainbowSchool.Models;
+
+namespace RainbowSchool.Controllers
+{
+    public class TeacherController : Controller
+    {
+        List<Teacher> teacher = new List<Teacher>()
+        {
+            new Teacher { Id = 1, Name = "Mr.Santhosh", TeachingSubject = "English"},
+            new Teacher { Id = 2, Name = "Mrs.Revathi", TeachingSubject = "Tamil"},
+            new Teacher { Id = 3, Name = "Mr.Mani", TeachingSubject = "Maths"},
+        };
+        public IActionResult Index()
+        {
+            return View(teacher);
+        }
+
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View(new Teacher());
+        }
+
+        [HttpPost]
+        public IActionResult Create(Teacher model)
+        {
+            if (ModelState.IsValid)
+            {
+                teacher.Add(model);
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return View(model);
+            }
+        }
+    }
+}
